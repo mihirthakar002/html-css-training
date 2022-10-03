@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    background-image: url("https://t3.ftcdn.net/jpg/04/34/86/66/240_F_434866648_Codb7EOQ4zwdqZquJXdxhYXaLOTTqBZt.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}   
+ 
+ h1,h2,h3 {
+     margin: 0;
+ }
+
+
+img {
+    width: 10%;
+    border-radius: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.upper{
+
+    
+    
+}
+
+.middle{
+ margin:100px; 
+  
+ 
+}
+
+.lower{
+    
+}
+    
+    
