@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garuda Security</title>
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <div>
+            <h5>Garuda Security</h5>
+            <img src="png/logo.png" width="80px" />
+          </div>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li><a href="" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input
+              type="search"
+              class="form-control form-control-dark text-bg-dark"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <main>
+        <video
+          id="background-video"
+          autoplay
+          loop
+          muted
+          poster="https://assets.codepen.io/6093409/river.jpg"
+        >
+          <source src="bgvideo/video.mp4" type="video/mp4" />
+        </video>
+        <h1 class="visually-hidden">Features examples</h1>
+
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom">
+            The Most Advanced System & Cloud Based Security!
+          </h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+              >
+               <img src="png/phishing.png" width="100px">
+              </div>
+              <h3 class="fs-2">Advanced Phishing Protection</h3>
+              <p>
+                Real Time Mails Checker and Blocks Spam or Malicious Content
+              </p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                View More
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+              >
+                <img src="png/cyber-attack.png" width="100px">
+              </div>
+              <h3 class="fs-2">BruteForce Protection!</h3>
+              <p>
+                Blocks Strange IPs and Botnets and Gives You Advanced Monitoring
+                System!
+              </p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                View More
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+              >
+                <img src="png/anti-virus-shield.png" width="100px">
+              </div>
+              <h3 class="fs-2">Malware Protection!</h3>
+              <p>
+                Scans your System and Server Configuration Settings and Gives
+                You Malicious Free Environment!
+              </p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                View More
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="b-example-divider"></div>
+
+        <div class="container px-4 py-5" id="hanging-icons">
+          <h2 class="pb-2 border-bottom">
+            Be Free About Security We Here For You!
+          </h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+              <div
+                class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              >
+                <img src="png/debit-card.png" width="100px">
+              </div>
+              <div>
+                <h3 class="fs-2">Safe Online Banking</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                  We'll add onto it with another sentence and probably just keep
+                  going until we run out of words.
+                </p>
+                <a href="https://www.kaspersky.com/resource-center/preemptive-safety/safe-money-all-about-the-money" target="_blank" class="btn btn-primary"> Learn How </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div
+                class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              >
+               <img src="png/bug.png" width="100px">
+              </div>
+              <div>
+                <h3 class="fs-2">Vulnerability Scanner</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                  We'll add onto it with another sentence and probably just keep
+                  going until we run out of words.
+                </p>
+                <a href="https://www.balbix.com/insights/what-is-vulnerability-scanning/" target="_blank" class="btn btn-primary"> Learn How </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div
+                class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              >
+               <img src="png/rescue.png" width="100px">
+              </div>
+              <div>
+                <h3 class="fs-2">Rescue Mode</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                  We'll add onto it with another sentence and probably just keep
+                  going until we run out of words.
+                </p>
+                <a href="https://www.bitdefender.com/consumer/support/answer/29132/#:~:text=Simply%20click%20REBOOT%20IN%20RESCUE,Bitdefender%20will%20remove%20the%20infection." target="_blank" class="btn btn-primary"> Learn How </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="b-example-divider"></div>
+
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 border-bottom">More Features</h2>
+
+          <div
+            class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
+          >
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="background-image: url('unsplash-photo-1.jpg')"
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Anti-Fraud
+                  </h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img
+                        src="https://cdn-icons-png.flaticon.com/512/2473/2473007.png"
+                        alt="Bootstrap"
+                        width="100"
+                        height="100"
+                        class="rounded-circle border border-white"
+                      />
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                      </svg>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <small>3d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="background-image: url('unsplash-photo-2.jpg')"
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Dedicated Ransomware Protection
+                  </h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img
+                        src="https://cdn-icons-png.flaticon.com/512/3039/3039480.png"
+                        alt="Bootstrap"
+                        width="100"
+                        height="100"
+                        class="rounded-circle border border-white"
+                      />
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                      </svg>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <small>4d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="background-image: url('unsplash-photo-3.jpg')"
+              >
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Removes Spyware
+                  </h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img
+                        src="https://cdn-icons-png.flaticon.com/512/2665/2665283.png"
+                        alt="Bootstrap"
+                        width="100"
+                        height="100"
+                        class="rounded-circle border border-white"
+                      />
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                      </svg>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <small>5d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="b-example-divider"></div>
+
+        <div class="container px-4 py-5" id="icon-grid">
+          <h2 class="pb-2 border-bottom">Why Garuda Security ?</h2>
+
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+          >
+            <div class="col d-flex align-items-start">
+              <svg
+                class="bi text-muted flex-shrink-0 me-3"
+                width="1.75em"
+                height="1.75em"
+              >
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">24/7 Support</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                class="bi text-muted flex-shrink-0 me-3"
+                width="1.75em"
+                height="1.75em"
+              >
+                <use xlink:href="#cpu-fill"></use>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Real Time Protection</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                class="bi text-muted flex-shrink-0 me-3"
+                width="1.75em"
+                height="1.75em"
+              >
+                <use xlink:href="#calendar3"></use>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">We Value About Your Privacy</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                class="bi text-muted flex-shrink-0 me-3"
+                width="1.75em"
+                height="1.75em"
+              >
+                <use xlink:href="#home"></use>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Built in Proxy Service</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                class="bi text-muted flex-shrink-0 me-3"
+                width="1.75em"
+                height="1.75em"
+              >
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Be Anonymous</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                class="bi text-muted flex-shrink-0 me-3"
+                width="1.75em"
+                height="1.75em"
+              >
+                <use xlink:href="#toggles2"></use>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">No Trackers</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                class="bi text-muted flex-shrink-0 me-3"
+                width="1.75em"
+                height="1.75em"
+              >
+                <use xlink:href="#geo-fill"></use>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">No Adware</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                class="bi text-muted flex-shrink-0 me-3"
+                width="1.75em"
+                height="1.75em"
+              >
+                <use xlink:href="#tools"></use>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">No clickjacking</h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="b-example-divider"></div>
+
+        <div class="container px-4 py-5">
+          <h2 class="pb-2 border-bottom">Subscriptions</h2>
+
+          <div
+            class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+          >
+            <div class="d-flex flex-column align-items-start gap-2">
+              <h3 class="fw-bold">
+                Left-aligned title explaining these awesome features
+              </h3>
+              <p class="text-muted">
+                Paragraph of text beneath the heading to explain the heading.
+                We'll add onto it with another sentence and probably just keep
+                going until we run out of words.
+              </p>
+              <a href="#" class="btn btn-primary btn-lg">Buy Now</a>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#collection"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0">599/-</h4>
+                <p class="text-muted">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+
+              <div class="d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#gear-fill"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0">1200/-</h4>
+                <p class="text-muted">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+
+              <div class="d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#speedometer"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0">1500/-</h4>
+                <p class="text-muted">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+
+              <div class="d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#table"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0">2200/-</h4>
+                <p class="text-muted">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+
+    <footer>
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <img src="png/logo.png" width="60px" />
+          <span class="mb-3 mb-md-0 text-muted"
+            >© 2022 Garuda Security, Inc</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="https://twitter.com/i/flow/login"
+              ><img
+                src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+                width="85px"
+              />
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.facebook.com/"
+              ><img
+                src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-white-f.png"
+                width="60px"
+              />
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.instagram.com/"
+              ><img src="png/iglogo.png" width="60px" />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </footer>
+  </body>
+</html>
