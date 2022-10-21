@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <title>Medito!</title>
+  </head>
+  <body>
+    <!-- off canvas navbar -->
+    <nav class="navbar navbar-dark bg-dark" aria-label="Dark offcanvas navbar">
+      <div class="container-fluid">
+        <img src="images/logo.png" width="100px" />
+        <a class="navbar-brand" href="#">Medito</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbarDark"
+          aria-controls="offcanvasNavbarDark"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasNavbarDark"
+          aria-labelledby="offcanvasNavbarDarkLabel"
+        >
+          <div class="offcanvas-header">
+            <img src="images/logo.png" width="80px" />
+            <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">
+              Meditate Yourself With Medito!
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search Binural Beats"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://source.unsplash.com/1400x400/?Meditation"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Wellness Retreates</h5>
+            <p>Stable Your Mentle Health With Meditation</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/1400x400/?astrophotography"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Feed Peace To Your Soul</h5>
+            <p>Feel The Power of Aura ! And Activate Your Chakras</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/1400x400/?nebula"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Get The Positive Energy of Galaxy</h5>
+            <p>Implement Positivy In Your Life and Be Happy!</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- content -->
+
+    <div class="row align-left">
+      <div class="col-md-6 item-wrapper">
+        <div class="row-item card1 align-left">
+          <div class="card-img align-left mbr-white">
+            <span class="mbr-iconfont mobi-mbri-edit mobi-mbri"></span>
+          </div>
+          <h4
+            class="mbr-fonts-style mbr-card-title mbr-black mbr-bold display-5"
+          >
+            Yoga
+          </h4>
+          <p class="mbr-text mbr-fonts-style mb-0 display-7">
+            Lorem ipsum dolor amet, consecte tempor incididunt ut labore et
+            dolore tumber tur adipisicing elit.&nbsp;Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Amet mauris commodo quis imperdiet
+            massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra
+            justo. Leo in vitae turpis massa sed elementum.
+          </p>
+          <div class="mbr-section-btn align-center">
+            <a class="btn btn-info-outline display-4" href="#">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 item-wrapper">
+        <div class="row-item card2">
+          <div class="card-img align-left mbr-white">
+            <span class="mbr-iconfont mobi-mbri-update mobi-mbri"></span>
+          </div>
+          <h4
+            class="mbr-fonts-style mbr-card-title mbr-black mbr-bold display-5"
+          >
+            Meditation
+          </h4>
+          <p class="mbr-text mbr-fonts-style mb-0 display-7">
+            Lorem ipsum dolor amet, consecte tempor incididunt ut labore et
+            dolore tumber tur adipisicing elit.&nbsp;Lorem ipsum dolor amet,
+            consecte tempor incididunt ut labore et dolore tumber tur
+            adipisicing elit.&nbsp;Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.&nbsp;
+          </p>
+          <div class="mbr-section-btn align-center">
+            <a class="btn btn-info-outline display-4" href="#">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 item-wrapper">
+        <div class="row-item card3">
+          <div class="card-img align-left mbr-white">
+            <span class="mbr-iconfont mbri-photos"></span>
+          </div>
+          <h4
+            class="mbr-fonts-style mbr-card-title mbr-black mbr-bold display-5"
+          >
+            Chakra Activation
+          </h4>
+          <p class="mbr-text mbr-fonts-style mb-0 display-7">
+            Lorem ipsum dolor amet, consecte tempor incididunt ut labore et
+            dolore tumber tur adipisicing elit.<br />Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Amet mauris commodo quis imperdiet
+            massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra
+            justo. Leo in vitae turpis massa sed elementum.<br />
+          </p>
+          <div class="mbr-section-btn align-center">
+            <a class="btn btn-info-outline display-4" href="#">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 item-wrapper">
+        <div class="row-item card4">
+          <div class="card-img align-left mbr-white">
+            <span class="mbr-iconfont mbri-like"></span>
+          </div>
+          <h4
+            class="mbr-fonts-style mbr-card-title mbr-black mbr-bold display-5"
+          >
+            Mentle Health Treatment
+          </h4>
+          <p class="mbr-text mbr-fonts-style mb-0 display-7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet
+            mauris commodo quis imperdiet massa tincidunt. Nisl rhoncus mattis
+            rhoncus urna neque viverra justo. Leo in vitae turpis massa sed
+            elementum.
+          </p>
+          <div class="mbr-section-btn align-center">
+            <a class="btn btn-info-outline display-4" href="#">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">About</a>
+        </li>
+      </ul>
+      <p class="text-center text-muted">© 2022 Medito, Inc</p>
+    </footer>
+  </body>
+</html>
